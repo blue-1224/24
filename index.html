@@ -1,0 +1,42 @@
+<!doctype.html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2023_24</title>  
+        <style>
+			div { text-align: center;}
+            body { margin: 0; padding: 0; 
+                   width: 100%; overflow-x:hidden; }
+            img {                
+                max-width: 100%;
+                height: auto;                
+                pointer-events: none;         
+                }
+            img[usemap] {pointer-events: auto;}
+                @media (max-width:720px) {img {width: 100%;}}
+		</style>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+           <script>
+           $(document).ready(function() {
+               $('img[usemap]').rwdImageMaps();
+           });
+           </script>
+       
+    </head>
+    <body>
+        <div>
+        <img 
+        src="2023휴대폰첫결제프로모션_스토어상세(720)_(김광옥).png"
+        alt="Image"
+        usemap="#버튼">
+        <map name="버튼" id="버튼">
+        <area  shape="rect" alt="응모하기" title="응모하기" 
+               coords="45, 1050, 675, 1165" 
+               href="https://www.lguplus.com/"
+               target="_self">
+               
+       </div>
+    </body>
+</html>
